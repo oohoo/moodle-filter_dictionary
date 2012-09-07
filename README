@@ -15,7 +15,7 @@ retrieve its definition from an online dictionary chosen by the teacher.
 Prerequisites
 --------------------------------------------------------------------------------
 
-N/A
+Download and install oohoo/moodle-block_dictionary
 
 --------------------------------------------------------------------------------
 Installation
@@ -23,8 +23,10 @@ Installation
 
  1. Rename the folder to 'dictionary'
  2. Copy the folder dictionary to moodle/filter
- 3. Install the plugin
+ 3. Install oohoo/moodle-block_dictionary from GitHub with README instructions
+ 3. Install the plugins (filter and block)
  4. Go to the plugin settings to add custom dictionaries
+ 5. Go to the filters settings to activate the dictionary filter
 
 
 --------------------------------------------------------------------------------
