@@ -21,16 +21,16 @@ $items[] = new admin_setting_configtext('filter_dictionary_name2', '', get_strin
 $items[] = new admin_setting_configtext('filter_dictionary_uri2', '', get_string('dictionaryurl', 'block_dictionary'), 'http://en.wikipedia.org/wiki/', PARAM_RAW);
 $items[] = new admin_setting_configtext('filter_dictionary_name3', '', get_string('dictionaryname', 'block_dictionary'), 'Wikipedia (français)', PARAM_RAW);
 $items[] = new admin_setting_configtext('filter_dictionary_uri3', '', get_string('dictionaryurl', 'block_dictionary'), 'http://fr.wikipedia.org/wiki/', PARAM_RAW);
-$items[] = new admin_setting_configtext('filter_dictionary_name4', '', get_string('dictionaryname', 'block_dictionary'), 'Autre', PARAM_RAW);
-$items[] = new admin_setting_configtext('filter_dictionary_uri4', '', get_string('dictionaryurl', 'block_dictionary'), '', PARAM_RAW);
-$items[] = new admin_setting_configtext('filter_dictionary_name5', '', get_string('dictionaryname', 'block_dictionary'), 'Autre', PARAM_RAW);
-$items[] = new admin_setting_configtext('filter_dictionary_uri5', '', get_string('dictionaryurl', 'block_dictionary'), '', PARAM_RAW);
-$items[] = new admin_setting_configtext('filter_dictionary_name6', '', get_string('dictionaryname', 'block_dictionary'), 'Autre', PARAM_RAW);
-$items[] = new admin_setting_configtext('filter_dictionary_uri6', '', get_string('dictionaryurl', 'block_dictionary'), '', PARAM_RAW);
-$items[] = new admin_setting_configtext('filter_dictionary_name7', '', get_string('dictionaryname', 'block_dictionary'), 'Autre', PARAM_RAW);
-$items[] = new admin_setting_configtext('filter_dictionary_uri7', '', get_string('dictionaryurl', 'block_dictionary'), '', PARAM_RAW);
-$items[] = new admin_setting_configtext('filter_dictionary_name8', '', get_string('dictionaryname', 'block_dictionary'), 'Autre', PARAM_RAW);
-$items[] = new admin_setting_configtext('filter_dictionary_uri8', '', get_string('dictionaryurl', 'block_dictionary'), '', PARAM_RAW);
+$items[] = new admin_setting_configtext('filter_dictionary_name4', '', get_string('dictionaryname', 'block_dictionary'), 'Wikipedia (espanõl)', PARAM_RAW);
+$items[] = new admin_setting_configtext('filter_dictionary_uri4', '', get_string('dictionaryurl', 'block_dictionary'), 'http://es.wikipedia.org/wiki/', PARAM_RAW);
+$items[] = new admin_setting_configtext('filter_dictionary_name5', '', get_string('dictionaryname', 'block_dictionary'), 'Wikipedia (português)', PARAM_RAW);
+$items[] = new admin_setting_configtext('filter_dictionary_uri5', '', get_string('dictionaryurl', 'block_dictionary'), 'http://pt.wikipedia.org/wiki/', PARAM_RAW);
+$items[] = new admin_setting_configtext('filter_dictionary_name6', '', get_string('dictionaryname', 'block_dictionary'), 'Wikipedia (italiano)', PARAM_RAW);
+$items[] = new admin_setting_configtext('filter_dictionary_uri6', '', get_string('dictionaryurl', 'block_dictionary'), 'http://it.wikipedia.org/wiki/', PARAM_RAW);
+$items[] = new admin_setting_configtext('filter_dictionary_name7', '', get_string('dictionaryname', 'block_dictionary'), 'Wikipedia (deutsch)', PARAM_RAW);
+$items[] = new admin_setting_configtext('filter_dictionary_uri7', '', get_string('dictionaryurl', 'block_dictionary'), 'http://de.wikipedia.org/wiki/', PARAM_RAW);
+$items[] = new admin_setting_configtext('filter_dictionary_name8', '', get_string('dictionaryname', 'block_dictionary'), 'Wikipedia (polski)', PARAM_RAW);
+$items[] = new admin_setting_configtext('filter_dictionary_uri8', '', get_string('dictionaryurl', 'block_dictionary'), 'http://pl.wikipedia.org/wiki/', PARAM_RAW);
 
 foreach ($items as $item)
 {
