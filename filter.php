@@ -42,7 +42,7 @@ function dictionary_filter($courseid, $text)
     if ($usedictionary->id >= 1)
     {
         //$dictionaryhtml = '<script type="text/javascript" src="'.$CFG->wwwroot.'/filter/dictionary/dictionary.js"></script>'; ADDED TO HEADER
-        $dictionaryhtml = '<span ondblclick="getSelText(\'' . $usedictionary->dictionary . '\')">' . $text . '</span>';
+        $dictionaryhtml = '<span ondblclick="getSelText(\'' . $usedictionary->dictionary . '\', '.$usedictionary->popup.')">' . $text . '</span>';
     }
     else
     {

@@ -14,11 +14,13 @@
 
 /**
  * This function is called on the double click of a word
- * @param string uri The uri to go
+ * @param uri The uri to go
+ * @param forcepopup if == 1 force open in a popup
  */
-function getSelText(uri)
+function getSelText(uri, forcepopup)
 {
     var txt = '';
+    //Get the text
     if (window.getSelection)
     {
         txt = window.getSelection();
@@ -31,8 +33,33 @@ function getSelText(uri)
     {
         txt = document.selection.createRange().text;
     }
-    else return;
-    window.open(uri+txt);
+    else return false;
+    
+    //Construct the URL
+    var url = uri.split('#WORD#');
+    if(url.length > 1)
+    {
+        url = url[0] + txt + url[1];
+    }
+    else
+    {
+        url = uri+txt;
+    }
+    
+    //Choose if open in popup or in a tab
+    if(forcepopup == 1)
+    {
+        popupwindow=window.open(url, 'dictionary_popup', 'height=500,width=600');
+        if (window.focus)
+        {
+            popupwindow.focus();
+        }
+    }
+    else
+    {
+        window.open(url);
+    }
+    return false;
 }
 
 
