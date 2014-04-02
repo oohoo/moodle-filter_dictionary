@@ -29,7 +29,7 @@ class filter_dictionary extends moodle_text_filter {
 
         global $CFG, $COURSE, $PAGE, $DB;
 
-        $PAGE->requires->js('/filter/dictionary/dictionary.js', true);
+        $PAGE->requires->js('/filter/dictionary/dictionary.js', false);
 
         if (!$usedictionary = $DB->get_record("block_dictionary", array("courseid" => $COURSE->id))) {
             $usedictionary = 0;
