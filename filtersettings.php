@@ -12,7 +12,7 @@
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later  **
  * *************************************************************************
  * ************************************************************************ */
-$items = array(); 
+$items = array();
 $items[] = new admin_setting_configtext('filter_dictionary_name', '', get_string('dictionaryname', 'block_dictionary'), 'Larousse', PARAM_RAW);
 $items[] = new admin_setting_configtext('filter_dictionary_uri', get_string('dictionaryinstructions', 'block_dictionary'), get_string('dictionaryurl', 'block_dictionary'), 'http://www.larousse.fr/encyclopedie/rechercher/#WORD#', PARAM_RAW);
 $items[] = new admin_setting_configtext('filter_dictionary_name1', '', get_string('dictionaryname', 'block_dictionary'), 'Dictionary.com', PARAM_RAW);
