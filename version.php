@@ -13,9 +13,9 @@
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later  **
  * *************************************************************************
  * ************************************************************************ */
-$plugin->version = 2013061800;
+$plugin->version = 2014040200;
 $plugin->requires = 2012120300;
 $plugin->maturity = MATURITY_STABLE;
-$plugin->release = '1.1.0 (Build: 2013061800)';
+$plugin->release = '1.2.0 (Build: 2014040200)';
 $plugin->component = 'filter_dictionary';
 $plugin->cron = 0;
