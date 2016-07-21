@@ -49,5 +49,3 @@ class filter_dictionary extends moodle_text_filter {
     }
 
 }
-
-?>
